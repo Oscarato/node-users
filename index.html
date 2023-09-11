@@ -1,0 +1,18 @@
+<div style="padding: 10px">
+    <div>
+        <b>Bienvenido al API para las Pruebas NODE.&nbsp;</b>
+    </div>
+    <div><br></div>
+    <div>La documentaci&oacute;n est&aacute; con Swagger en <a data-fr-linked="true" href="http://localhost:3000/api-docs/#/General/post_register">http://localhost:3000/api-docs</a></div>
+    <div><br></div>
+    <div>Para iniciar no olvidar usar <b>npm install</b> y luego <b>npm run start</b>.&nbsp;</div>
+    <div><br></div>
+    <div>Para probar, realiza los siguientes pasos:&nbsp;</div>
+    <div><br></div>
+    <ol>
+        <li>Desde un cliente como PostMan. Registra un usuario con el endpoint POST <a data-fr-linked="true" href="http://localhost:3000/register,">http://localhost:3000/register,</a> suministrando el nombre, correo, contrase&ntilde;a y rol (El rol es un n&uacute;mero entre 1 y 2 donde 1 es administrador y 2 es un usuario com&uacute;n). (<a data-fr-linked="true" href="http://localhost:3000/api-docs/#/General/post_register">http://localhost:3000/api-docs/#/General/post_register</a>)</li>
+        <li>Una vez esté creado, se debe loguear para obtener el JWT en el endpoint <a data-fr-linked="true" href="http://localhost:3000/token">http://localhost:3000/token</a>. (<a data-fr-linked="true" href="http://localhost:3000/api-docs/#/General/post_token">http://localhost:3000/api-docs/#/General/post_token</a>)</li>
+        <li>Con el token ya podr&aacute; consultar la lista de usuarios <a data-fr-linked="true" href="http://localhost:3000/users">http://localhost:3000/users</a> (Si el rol es administrador) o un usuario en particular <a data-fr-linked="true" href="http://localhost:3000/users/64ff56924a48a8ded443be54">http://localhost:3000/users/64ff56924a48a8ded443be54</a>&nbsp;</li>
+        <li>El administrador podr&aacute; eliminar o editar un usuario especificando el id.&nbsp;</li>
+    </ol>
+</div>
