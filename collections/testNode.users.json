@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "64ff48d6e9f68225ceda01c4"
+  },
+  "name": "Javier Amaya",
+  "email": "oscarato1993@gmail.com",
+  "password": "$2a$10$iFFueJgxfscKQ.oxfTNH9emMYWEDwMLJvD0lIhB1oQtuAEUVhVX9O",
+  "roll": "1",
+  "datecreated": "1694451926",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ff56924a48a8ded443be54"
+  },
+  "name": "Oscar Jimenez Amaya",
+  "email": "racsokoll@hotmail.com",
+  "password": "$2a$10$VuOJ6PCSDQftS6Y0TnvMkuyZ.fKZ4Nmfm8eUDIZ/gBaIrXxiaRuX2",
+  "roll": "2",
+  "datecreated": "1694455442",
+  "__v": 0
+}]
