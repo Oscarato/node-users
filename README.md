@@ -6,7 +6,10 @@ Este proyecto corre con mongodb, por favor importar el archivo que esta en la ca
 
 La colección se llama testNode y corre en el puerto 27017 que puede ser modificado en el archivo config/index.js
 
-No olvides correr npm install y luego npm run start
+No olvides correr:
+
+### `npm install`
+### `npm run start`
 
 Una vez la API esté corriendo, puede ingresar a [http://localhost:3000](http://localhost:3000) para más instrucciones. 
 
