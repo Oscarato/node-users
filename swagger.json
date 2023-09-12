@@ -283,6 +283,34 @@
           }
         }
       }
+    },
+    "/process-file": {
+      "post": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Devuelve el número de palabras que tenga un archivo",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {}
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "wordCount": "2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
